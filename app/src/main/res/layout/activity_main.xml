@@ -52,9 +52,8 @@
         android:layout_width="129dp"
         android:layout_height="39dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="344dp"
         android:background="@color/colorPrimaryDark"
         android:onClick="multiplicacion"
         android:text="x"
@@ -63,9 +62,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.902"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/button_suma"
-        app:layout_constraintVertical_bias="0.005" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/button_resta"
@@ -85,7 +82,7 @@
         app:layout_constraintHorizontal_bias="0.152"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tV_valor2"
-        app:layout_constraintVertical_bias="0.283" />
+        app:layout_constraintVertical_bias="0.357" />
 
     <TextView
         android:id="@+id/tV_resultado"
@@ -100,10 +97,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.294"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toEndOf="@+id/tV_tit_result"
         app:layout_constraintTop_toBottomOf="@+id/button_modulo"
-        app:layout_constraintVertical_bias="0.297" />
+        app:layout_constraintVertical_bias="0.581" />
 
     <TextView
         android:id="@+id/tV_tit_result"
@@ -121,7 +118,7 @@
         app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button_modulo"
-        app:layout_constraintVertical_bias="0.294" />
+        app:layout_constraintVertical_bias="0.579" />
 
     <TextView
         android:id="@+id/tV_valor1"
@@ -213,6 +210,6 @@
         app:layout_constraintHorizontal_bias="0.151"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tV_valor2"
-        app:layout_constraintVertical_bias="0.162" />
+        app:layout_constraintVertical_bias="0.156" />
 
 </android.support.constraint.ConstraintLayout>
